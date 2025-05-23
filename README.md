@@ -86,7 +86,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Search Functionality**: Find tutors quickly with robust filters and search bar.
 
-And many more, including enhanced security and optimized video performance!
+and many more, including code architecture and reusability.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
