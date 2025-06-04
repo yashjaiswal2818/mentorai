@@ -107,13 +107,13 @@ export const getUserCompanions = async (userId: string) => {
     return data;
 }
 
-/*export const newCompanionPermissions = async () => {
+export const newCompanionPermissions = async () => {
     const { userId, has } = await auth();
     const supabase = createSupabaseClient();
 
     let limit = 0;
 
-    /*if(has({ plan: 'pro' })) {
+    if(has({ plan: 'pro' })) {
         return true;
     } else if(has({ feature: "3_companion_limit" })) {
         limit = 3;
@@ -135,7 +135,7 @@ export const getUserCompanions = async (userId: string) => {
     } else {
         return true;
     }
-}  */
+}  
 
 // Bookmarks
 export const addBookmark = async (companionId: string, path: string) => {

@@ -16,7 +16,7 @@ const NewCompanion = async () => {
           
                 <article className="w-full flex flex-col gap-4">
 
-                    <h1>companion builder</h1>
+                    <h1>Mentor builder</h1>
 
                     <CompanionForm />
 
